@@ -25,7 +25,7 @@
                 int lengthOfString = stringToReverse.Length;
 
                 // for each element into that variable append that into a list and then count i--
-                var listReversedChars = new List<char>();
+                List<char> listReversedChars = new List<char>();
 
                 for (int i = lengthOfString; i > 0; i--)
                 {
