@@ -1,4 +1,7 @@
-﻿namespace ReverseString
+﻿using System.Runtime.InteropServices;
+using System.Threading.Tasks.Dataflow;
+
+namespace ReverseString
 {
     internal class Program
     {
@@ -31,7 +34,9 @@
                 {
                     listReversedChars.Add(stringToReverse[lengthOfString - 1 - i]);
                 }
-
+                
+                
+                
                 //print reversed word            
                 string reversedWord = new string(listReversedChars.ToArray());
                 Console.WriteLine($"The reversed word is: {reversedWord}");
@@ -55,7 +60,6 @@
                 {
                     break;
                 }
-
                 Console.Clear();
             }
         }
