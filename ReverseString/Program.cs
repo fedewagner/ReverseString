@@ -22,7 +22,6 @@
             // check the length of that variable
             int lengthOfString = stringToReverse.Length;
             
-                
             /*//
             for each element
             into that variable append that into a list and then count i--
