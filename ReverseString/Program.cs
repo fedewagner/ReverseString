@@ -27,9 +27,9 @@
                 // for each element into that variable append that into a list and then count i--
                 List<char> listReversedChars = new List<char>();
 
-                for (int i = lengthOfString; i > 0; i--)
+                for (int i = 0; i < lengthOfString; i++)
                 {
-                    listReversedChars.Add(stringToReverse[i - 1]);
+                    listReversedChars.Add(stringToReverse[lengthOfString - 1 - i]);
                 }
 
                 //print reversed word            
