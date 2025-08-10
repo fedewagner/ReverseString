@@ -8,7 +8,7 @@
             {
                 // Create a program that asks the user for a string of input and simply returns it in reverse order. For instance, they enter “Hello” and it returns “olleH”.
                 // Added Difficulty: Check if the given string is a palindrome.
-                
+
                 //STEPS
                 // intro and ask user to enter a word to be chacked
                 // check the length of that variable
@@ -46,7 +46,7 @@
                     Console.ForegroundColor = ConsoleColor.Red;
                     Console.WriteLine("The word is not a palindrome :(");
                 }
-                
+
                 Console.ForegroundColor = ConsoleColor.White;
                 Console.WriteLine("Restart? (y/n)");
                 string answer = Console.ReadLine();
@@ -55,6 +55,7 @@
                 {
                     break;
                 }
+
                 Console.Clear();
             }
         }
