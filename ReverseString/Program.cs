@@ -32,6 +32,7 @@
                 charsToReverse.Add(item);
             }*/
 
+            
             // for each element into that variable append that into a list and then count i--
             for (int i = lengthOfString; i > 0; i--)
             {
